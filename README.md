@@ -25,7 +25,10 @@ main.py       entry point
 generator.py  core logic
 gui.py        tkinter interface
 cli.py        terminal interface
+```
+
 ## Screenshots
+
 
 **Default view (length 15, all character types)**
 
