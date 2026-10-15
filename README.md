@@ -11,18 +11,23 @@ Secure password generator with a GUI and a CLI.
 - Entropy calculation: E = L x log2(R), with strength meter
 
 ## Run
-    python main.py          # GUI
-    python main.py --cli    # terminal
+```
+python main.py          # GUI
+python main.py --cli    # terminal
+```
 
 ## Requirements
 Python 3.6+ (tkinter included on Windows/Mac; Linux: `sudo apt install python3-tk`)
 
 ## Structure
-    main.py       entry point
-    generator.py  core logic
-    gui.py        tkinter interface
-    cli.py        terminal interface
-    ## Screenshots
+```
+main.py       entry point
+generator.py  core logic
+gui.py        tkinter interface
+cli.py        terminal interface
+```
+
+## Screenshots
 
 **Default view (length 15, all character types)**
 ![Default view](screenshots/Default-view.png)
